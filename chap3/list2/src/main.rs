@@ -1,7 +1,7 @@
 // use crate::List::*;
 
 // State of my linked list
-// A new Linked list does not contan any elements
+// A new Linked list does not contain any elements
 // It is represented by a Nil. Nil is a node that signifies the end of the linked list.
 // A Cons is a tuple struct that wraps an element and a pointer to the next node.
 // When inserting the first Element into the list, the cons variant keeps the value and a pointer to the Nil node.
