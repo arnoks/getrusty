@@ -104,7 +104,6 @@ fn example7(){
     println!("names: {:?}", names);
     let names = vec!["Bob", "Frank", "Ferris"];
     // into_iter consumes the vector, so it is not available after the looplo {}", name),                                                                                          │  i_CTRL-@        CTRL-@            insert previously inserted text and stop                                                                 
-   22   │   │   }                     
     for name in names.into_iter() {
         match name {
             "Ferris" => println!("There is a rustacean among us!"),
